@@ -254,6 +254,74 @@ section h1 {
      margin: 16px;
   }
 
+  .comment-box {
+    margin:0 auto;
+    width: 40%;   
+}
+
+.tekstkontakt {
+    text-align: center;
+    color: #fff; 
+    font-size: 20px; 
+}
+
+/*Styling af de første 3 felter*/
+.comment-box input{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0px 15px 10px; /*Størrelse på de første felter dvs. fornavn, efternavn og email*/
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid#000000; 
+    text-align:left;
+    width: 100%;  
+    font-size: 16px;
+}
+
+
+.comment-box input:focus {
+    border: 1px solid #000;
+}
+
+/*Styling af skriv besked boks*/
+.comment-box textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 180px;
+    padding: 15px 0px 15px 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-left: 0px;
+    border: 1px solid #000000;
+    text-align:left;
+    width: 100%;  
+    font-size: 16px; 
+}
+.comment-box textarea :focus {
+    border: 1px solid #000;
+    outline: 0;
+}
+
+
+/*Styling af send knap*/
+.comment-box button {
+    display: flex;
+    border: 0;
+    padding: 10px 25px;
+    background: #8abf6b;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    width: 40%;  
+ 
+}
+
+
+.comment-box button:hover {
+   background-color: #62864d;
+ 
+}
+
 /*FOOTER*/
 .telefon {
     width: 20px;
@@ -267,23 +335,6 @@ section h1 {
     color: var(--textheader);
 }
 
-.kreater-img {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    color: var(--textheader)
-}
-
-.kreater-img p, .kreater-img h2 {
-    margin: 0;
-}
-
-.kreater-img img{
-    width: 200px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    border: solid 0.2rem var(--textheader);
-}
 
 .koncept {
     width: 400px;
@@ -351,13 +402,25 @@ section h1 {
     width: 45%;
   }
 
+  .comment-box {
+    margin:0 auto;
+    width: 60%;   
 
- }
+    }
+
+    .comment-box button {
+        margin-left: 1px;
+
+  }
+
+}
 
   /*COMPUTERVERSION*/
   @media screen and (min-width: 650px) {
     .burger {
         display: none;
+
+        
     }
 
 
