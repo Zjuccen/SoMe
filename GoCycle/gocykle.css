@@ -408,15 +408,8 @@ section h1 {
 
     }
 
-<<<<<<< HEAD
-    .comment-box button {
+      .comment-box button {
         margin-left: 1px;
-=======
-
-    .comment-box button {
-    margin-left: 1px;
-
->>>>>>> main
 
   }
 
@@ -426,20 +419,8 @@ section h1 {
   @media screen and (min-width: 650px) {
     .burger {
         display: none;
-<<<<<<< HEAD
-
-        
-    }
-=======
->>>>>>> main
 
         
     }
 
-<<<<<<< HEAD
-  }
-=======
 }
-  
-}
->>>>>>> main
