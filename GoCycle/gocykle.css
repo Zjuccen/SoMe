@@ -254,6 +254,54 @@ section h1 {
      margin: 16px;
   }
 
+  .comment-box {
+    margin:0 auto;
+    width: 40%;   
+}
+
+.comment-box input{
+  
+    padding: 15px 0px 15px 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 0px;
+    border: 1px solid#000000;
+    text-align:left;
+    width: 100%;  
+}
+
+.comment-box input:focus {
+    border: 1px solid #000;
+}
+
+.comment-box textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 180px;
+    padding: 15px 0px 15px 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-left: 0px;
+    border: 1px solid #000000;
+    text-align:left;
+    width: 100%;   
+}
+.comment-box textarea :focus {
+    border: 1px solid #000;
+    outline: 0;
+}
+
+.comment-box button {
+    border: 0;
+    padding: 10px 25px;
+    background: #8abf6b;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 40%;  
+ 
+}
+
 /*FOOTER*/
 .telefon {
     width: 20px;
@@ -334,6 +382,12 @@ section h1 {
     width: 45%;
   }
 
+  .comment-box {
+    margin:0 auto;
+    width: 60%;   
+
+    }
+
 
  }
 
@@ -341,6 +395,8 @@ section h1 {
   @media screen and (min-width: 650px) {
     .burger {
         display: none;
+
+        
     }
 
 
