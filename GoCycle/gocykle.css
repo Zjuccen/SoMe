@@ -240,7 +240,7 @@ section h1 {
     color: #818181;
     display: block;
     transition: 0.3s;
-    text-align: center;
+    text-align: left;
 }
 
 /* hover effekt på navigations linje*/
@@ -414,6 +414,7 @@ span {
         height: 5px;
         background-color: var(--5);
         margin: 6px 0;
+        
     }
 
     .burger nav {
@@ -429,7 +430,7 @@ span {
 
     .burger nav ul li a {
         padding: 0.2rem;
-        margin: 0.5rem;
+        margin: 1rem;
         color: var(--textheader);
         text-decoration: none;
         font-size: 20px;
