@@ -267,23 +267,6 @@ section h1 {
     color: var(--textheader);
 }
 
-.kreater-img {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    color: var(--textheader)
-}
-
-.kreater-img p, .kreater-img h2 {
-    margin: 0;
-}
-
-.kreater-img img{
-    width: 200px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    border: solid 0.2rem var(--textheader);
-}
 
 .koncept {
     width: 400px;

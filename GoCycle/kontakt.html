@@ -51,40 +51,21 @@
     <section>
         <h1>Kontakt os</h1>
 
-        <div class="kreater-img">
-            <img src="./billeder/cecilie.jpeg" alt="download">
-            <h2>Cecilie Schaarup</h2>
-            <p>Projektleder</p>
-        </div>
-
-        <div class="kreater-img">
-            <img src="./billeder/jessica.jpeg" alt="download">
-            <h2>Jessica Wittrup Issaka</h2>
-            <p>Missions Ansvarlig</p>
-        </div>
-
-        <div class="kreater-img">
-            <img src="./billeder/michala.jpeg" alt="download">
-            <h2>Michala Pedersen</h2>
-            <p>Kode Ansvarlig</p>
-        </div>
-
-        <div class="kreater-img">
-            <img src="./billeder/nicolai.jpeg" alt="download">
-            <h2>Nicolai Jac Thomsen</h2>
-            <p>Business Model Canvas Ansvarlig</p>
-        </div>
-
-        <div class="kreater-img">
-            <img src="./billeder/sarah.jpeg" alt="download">
-            <h2>Sarah Marina Larsen</h2>
-            <p>Design Ansvarlig</p>
-        </div>
-
-        <img src="./billeder/logo.png" alt="download" id="download-img" width="350">
-    </section>
-
-    <footer>
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">Fornavn</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Efternavn</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="subject">Spørgsmål</label>
+              <textarea id="subject" name="subject" placeholder="Skriv noget..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Send">
+            </form>
+          </div>
+</section>      
+    
+<footer>
         <div class="footer">
             <p><img src="./billeder/telefon.jpeg" alt="telefon" class="telefon"> +45 xx xx xx xx</p>
             <p>&copy; 2021 GoCykle.dk</p>
