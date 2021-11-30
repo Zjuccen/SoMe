@@ -259,21 +259,30 @@ section h1 {
     width: 40%;   
 }
 
+.tekstkontakt {
+    text-align: center;
+    color: #fff; 
+    font-size: 20px; 
+}
+
+/*Styling af de første 3 felter*/
 .comment-box input{
-  
-    padding: 15px 0px 15px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0px 15px 10px; /*Størrelse på de første felter dvs. fornavn, efternavn og email*/
     margin-bottom: 10px;
     border-radius: 15px;
-    margin-left: 0px;
-    border: 1px solid#000000;
+    border: 1px solid#000000; 
     text-align:left;
     width: 100%;  
+    font-size: 16px;
 }
+
 
 .comment-box input:focus {
     border: 1px solid #000;
 }
 
+/*Styling af skriv besked boks*/
 .comment-box textarea {
     font-family: Arial, Helvetica, sans-serif;
     height: 180px;
@@ -283,22 +292,33 @@ section h1 {
     margin-left: 0px;
     border: 1px solid #000000;
     text-align:left;
-    width: 100%;   
+    width: 100%;  
+    font-size: 16px; 
 }
 .comment-box textarea :focus {
     border: 1px solid #000;
     outline: 0;
 }
 
+
+/*Styling af send knap*/
 .comment-box button {
+    display: flex;
     border: 0;
     padding: 10px 25px;
     background: #8abf6b;
     font-size: 18px;
     border-radius: 10px;
     color: white;
-    text-align: center;
+    margin: auto;
+    justify-content: center;
     width: 40%;  
+ 
+}
+
+
+.comment-box button:hover {
+   background-color: #62864d;
  
 }
 
@@ -389,6 +409,10 @@ section h1 {
     }
 
 
+    .comment-box button {
+    margin-left: 1px;
+
+
  }
 
   /*COMPUTERVERSION*/
@@ -399,5 +423,6 @@ section h1 {
         
     }
 
-
-  }
+}
+  
+}
