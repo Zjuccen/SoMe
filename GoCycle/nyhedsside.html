@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoCycle</title>
+    <link rel="stylesheet" href="gocykle.css">
+    <link rel="shortcut icon" href="./billeder/logo.png">
+</head>
+
+<body>
+    <header id="header">
+        <img src="./billeder/logo.png" alt="Logo" class="logo">
+        <div id="navbar">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">GoCycle</a></li>
+                    <li><a href="./koncept.html">Koncept</a></li>
+                    <li><a href="./kontakt.html">Creators</a></li>
+                    <li><a href="nyhedsside.html">Nyhedsside</a></li>
+                </ul>
+            </nav>
+            <p id="linje">|</p>
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><img src="./billeder/3.png" alt="apple" width="30"></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="./billeder/4.png" alt="apple" width="30"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/"><img src="./billeder/5.png" alt="apple" width="30"></a></li>
+                    <li><a href=""><img src="./billeder/6.png" alt="apple" width="30"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <header class="burger">
+        <nav>
+            <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <ul>
+                <li>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html">Forside</a>
+                        <a href="koncept.html">Koncept</a>
+                        <a href="kontakt.html">Konktakt</a>
+                        <a href="nyhedsside.html">Nyhedsside</a>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="toptekst">
+        <h1>Nyhedside</h1>
+    </div>
+
+    <div>
+        <section class="nyheder nyhed-et">
+            <h1> Vi er endelig på det sociale medier! </h1>
+            <h2>30-11-21</h2>
+            <p>Så er vi endelig kommet på de sociale medier, og du kan komme og følge os både på facebook,
+                instagram og TikTok!
+            </p>
+            <p>
+                Så tag og kig forbi vores Sociale sider og giv endelig et follow til os for at følge de opslag,
+                vi kommer til at poste! Vi Glæder os til at se jer og hører fra mere fra jer!
+            </p>
+            <p>
+                MvH - GoCycle <img src="./billeder/logo.png" alt="Logo" class="logo">
+            </p>
+            <div>
+        </section>
+
+        <section class="nyheder nyhed-to">
+            <h1>Lorem</h1>
+            <h2>30-11-21</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat,
+                doloribus iusto! Explicabo, quod tenetur nulla magni eveniet ratione to
+            </p>
+        </section>
+
+        <section class="nyheder nyhed-tre">
+            <h1>Lorem</h1>
+            <h2>30-11-21</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nobis ad saepe autem voluptates
+                architecto,
+                commodi provident, incidunt consectetur voluptas, vel sint? Molestiae dignissimos,
+                eaque quidem tempora dicta nobis quam?
+            </p>
+        </section>
+    </div>
+    <footer>
+        <div class="footer">
+            <p><img src="./billeder/telefon.jpeg" alt="telefon" class="telefon"> +45 xx xx xx xx</p>
+            <p>&copy; 2021 GoCycle.dk</p>
+        </div>
+
+        <div>
+            <button class="open-button" onclick="openForm()">Chat med os</button>
+
+            <div class="chat-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                    <h1>Velkommen til GoCykle</h1>
+
+                    <label for="msg"><b>Vi sidder klar til at hjælpe dig.</b></label>
+                    <textarea placeholder="Skriv dit spørgsmål her.." name="msg" required></textarea>
+
+                    <button type="submit" class="btn">Send</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Luk</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./gocykle.js"></script>
+</body>
+
+</html>
