@@ -476,7 +476,7 @@ span {
 .nyheder {
     float: left;
     justify-content: space-between;
-    max-width: 500px;
+    max-width: 400px;
     line-height: 1.5em;
     margin: 4rem;
     display: block;
@@ -499,6 +499,10 @@ span {
 
 /*MOBILVERSION*/
 @media screen and (max-width: 650px) {
+
+    * {
+        overflow-x: hidden;
+    }
 
     #header, .footer {
         display: none;
