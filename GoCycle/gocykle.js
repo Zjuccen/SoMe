@@ -28,3 +28,8 @@ function closeNav() {
      document.getElementById("mySidenav").style.width = "0";
 }
 
+// INDEX INDHOLD NYT
+
+setTimeout(function() {
+  document.getElementById('nisse').style.display='none'
+}, 6*1000);
