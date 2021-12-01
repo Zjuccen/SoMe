@@ -74,7 +74,7 @@ h2 {
 /*INDEX NYT, nissehue på overskrift*/
 .nissehue {
     width: 250px;
-    position:relative;
+    position: relative;
     left: -35px;
     top: -199px;
 }
@@ -98,10 +98,19 @@ h2 {
     animation-iteration-count: 1;
     animation-direction: alternate;
 }
+
 @keyframes nisse {
-    0% {left: 100%;}
-    70% {left: 0%;}
-    100% {left: 37%;}
+    0% {
+        left: 100%;
+    }
+
+    70% {
+        left: 0%;
+    }
+
+    100% {
+        left: 37%;
+    }
 }
 
 /*INDEX NY, logo kommer frem*/
@@ -113,10 +122,19 @@ h2 {
     animation-iteration-count: 1;
     animation-direction: alternate;
 }
+
 @keyframes logo {
-    0% {opacity: 0%;}
-    99% {opacity: 0%;}
-    100% {opacity: 100%;}
+    0% {
+        opacity: 0%;
+    }
+
+    99% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
 
 /*FOOTER*/
@@ -462,7 +480,7 @@ span {
         height: 5px;
         background-color: var(--5);
         margin: 6px 0;
-        
+
     }
 
     .burger nav {
